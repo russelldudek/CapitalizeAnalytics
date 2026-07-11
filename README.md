@@ -6,7 +6,7 @@ A role-specific candidate campaign for Russell Dudek.
 
 **Make AI credible in the room—and useful in the workflow.**
 
-The campaign argues that strategy and delivery should form one continuous proof chain: the executive decision, AI leverage point, technical mechanism, human authority, evidence, production handoff, and client ownership remain connected throughout the engagement.
+The campaign argues that strategy and delivery should form one continuous proof chain. Its role-specific operating artifact is the AI Proof Ledger: a persistent record of the decision, leverage hypothesis, authority boundary, evidence standard, handoff contract, and ownership cadence.
 
 ## Artifacts
 
