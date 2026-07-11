@@ -73,14 +73,16 @@ Strategy and delivery should form one continuous proof chain: business decision 
 
 ## Role-specific operating model
 
-The AI Leverage Bench:
-1. Expose friction.
-2. Define leverage.
-3. Build evidence.
-4. Engineer the handoff.
-5. Leave capability.
+The AI Proof Ledger is a persistent continuity record rather than a stage-gate or experimentation bench. It preserves six connected entries across ideation, scope, build, evaluation, handoff, and adoption:
 
-This is intentionally presented as a workbench/proof-chain system rather than a graph, flywheel, constellation, portfolio, digital spine, control room, or passport pattern already used elsewhere in the RoleForge portfolio.
+1. Decision record.
+2. Leverage hypothesis.
+3. Authority boundary.
+4. Evidence standard.
+5. Handoff contract.
+6. Ownership cadence.
+
+The visual and interaction system is deliberately ledger-like: ruled records, continuity fields, and visible handoff obligations. It avoids the portfolio's existing proving-ground/calibration-bench, graph, flywheel, constellation, digital-spine, control-room, dispatch-board, and delivery-weave patterns.
 
 ## Sources
 
