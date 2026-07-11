@@ -1,0 +1,181 @@
+%PDF-1.4
+%ABCD ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 792 612 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260711220638+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260711220638+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 4319
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+1 1 1 rg
+n 0 0 792 612 re f*
+.090196 .078431 .101961 rg
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 28 576 Tm (AI Engagement Canvas) Tj T* ET
+.396078 .372549 .407843 rg
+BT /F1 6 Tf 7.2 TL ET
+BT 1 0 0 1 533.906 578 Tm (Use this working surface to preserve one proof chain from decision through ownership.) Tj T* ET
+.478431 0 .364706 RG
+2 w
+n 28 556 m 764 556 l S
+.870588 .843137 .878431 RG
+n 28 305 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 36 524 Tm (1 | Decision record) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 36 509 Tm (What business decision, workflow friction, consequence, and accountable) Tj T* ET
+BT 1 0 0 1 36 501 Tm (owner define the problem?) Tj T* ET
+.917647 .898039 .921569 RG
+n 36 329 m 260 329 l S
+n 36 360 m 260 360 l S
+n 36 391 m 260 391 l S
+n 36 422 m 260 422 l S
+n 36 453 m 260 453 l S
+.870588 .843137 .878431 RG
+n 276 305 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 284 524 Tm (2 | Leverage hypothesis) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 284 509 Tm (How should AI change economics, speed, quality, or risk? What evidence) Tj T* ET
+BT 1 0 0 1 284 501 Tm (could disprove the bet?) Tj T* ET
+.917647 .898039 .921569 RG
+n 284 329 m 508 329 l S
+n 284 360 m 508 360 l S
+n 284 391 m 508 391 l S
+n 284 422 m 508 422 l S
+n 284 453 m 508 453 l S
+.870588 .843137 .878431 RG
+n 524 305 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 532 524 Tm (3 | Authority boundary) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 532 509 Tm (What may the system do? What must a person decide, review, override,) Tj T* ET
+BT 1 0 0 1 532 501 Tm (escalate, or stop?) Tj T* ET
+.917647 .898039 .921569 RG
+n 532 329 m 756 329 l S
+n 532 360 m 756 360 l S
+n 532 391 m 756 391 l S
+n 532 422 m 756 422 l S
+n 532 453 m 756 453 l S
+.870588 .843137 .878431 RG
+n 28 60 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 36 279 Tm (4 | Evidence standard) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 36 264 Tm (Which representative cases, quality thresholds, business measures, and) Tj T* ET
+BT 1 0 0 1 36 256 Tm (failure modes determine readiness?) Tj T* ET
+.917647 .898039 .921569 RG
+n 36 84 m 260 84 l S
+n 36 115 m 260 115 l S
+n 36 146 m 260 146 l S
+n 36 177 m 260 177 l S
+n 36 208 m 260 208 l S
+.870588 .843137 .878431 RG
+n 276 60 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 284 279 Tm (5 | Handoff contract) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 284 264 Tm (Which integrations, permissions, observability, support, rollback, and training) Tj T* ET
+BT 1 0 0 1 284 256 Tm (obligations must be explicit?) Tj T* ET
+.917647 .898039 .921569 RG
+n 284 84 m 508 84 l S
+n 284 115 m 508 115 l S
+n 284 146 m 508 146 l S
+n 284 177 m 508 177 l S
+n 284 208 m 508 208 l S
+.870588 .843137 .878431 RG
+n 524 60 240 235 re S
+.478431 0 .364706 rg
+BT /F2 7.5 Tf 9 TL ET
+BT 1 0 0 1 532 279 Tm (6 | Ownership cadence) Tj T* ET
+BT /F1 6.6 Tf 7.92 TL ET
+.090196 .078431 .101961 rg
+BT 1 0 0 1 532 264 Tm (Who reviews performance, exceptions, user behavior, risk, and) Tj T* ET
+BT 1 0 0 1 532 256 Tm (improvement after delivery?) Tj T* ET
+.917647 .898039 .921569 RG
+n 532 84 m 756 84 l S
+n 532 115 m 756 115 l S
+n 532 146 m 756 146 l S
+n 532 177 m 756 177 l S
+n 532 208 m 756 208 l S
+.396078 .372549 .407843 rg
+BT /F1 5.8 Tf 6.96 TL ET
+BT 1 0 0 1 28 14 Tm (Russell Dudek | Capitalize Analytics candidate campaign) Tj T* ET
+BT 1 0 0 1 594.1238 14 Tm (Recommendations remain hypotheses until validated in discovery.) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000843 00000 n 
+0000000902 00000 n 
+trailer
+<<
+/ID 
+[<0abe3d2da18125ecbc642510754bd00c><0abe3d2da18125ecbc642510754bd00c>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+5272
+%%EOF
