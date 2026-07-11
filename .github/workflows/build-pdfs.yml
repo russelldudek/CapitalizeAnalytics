@@ -1,0 +1,34 @@
+name: Build campaign PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.html"
+      - "styles.css"
+      - "scripts/generate-pdfs.mjs"
+      - ".github/workflows/build-pdfs.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install playwright@1.52.0
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/generate-pdfs.mjs
+      - name: Commit PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/*.pdf
+          git diff --cached --quiet || git commit -m "Generate audited campaign PDFs"
+          git push
