@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-07-11T22:21:13.857Z",
+  "generatedFrom": "f5751359e2d6f878679b652c84108acc66b0be37",
+  "status": "passed",
+  "files": [
+    {
+      "file": "docs/Russell-Dudek-Resume-Capitalize.pdf",
+      "source": "resume.html",
+      "expectedPages": 2,
+      "pageCount": 2,
+      "bytes": 146802,
+      "sha256": "d9a468e6271069e494ee7b208b997f4e35d4b28f6c008bf9c50f54d19ade346f"
+    },
+    {
+      "file": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
+      "source": "cover-letter.html",
+      "expectedPages": 1,
+      "pageCount": 1,
+      "bytes": 98628,
+      "sha256": "887486dfcc336162d21414a9f7d614b01b4a03a941c18181d5d3c233a11cf6b5"
+    },
+    {
+      "file": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
+      "source": "interview-brief.html",
+      "expectedPages": 4,
+      "pageCount": 4,
+      "bytes": 130502,
+      "sha256": "e95b010af3d95328e75a055976febb505a8ee14ea2c14a5df62f83da9dedd48e"
+    },
+    {
+      "file": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
+      "source": "90-day-plan.html",
+      "expectedPages": 3,
+      "pageCount": 3,
+      "bytes": 137246,
+      "sha256": "7b95eb95625ca13f297d10e4f3be85539f7cc6d2a01914eafbb790a762633d07"
+    },
+    {
+      "file": "docs/AI-Engagement-Canvas-Capitalize.pdf",
+      "source": "engagement-canvas.html",
+      "expectedPages": 1,
+      "pageCount": 1,
+      "bytes": 50264,
+      "sha256": "2fb9002e3f743ead4479c22b4ab849ccfbe9585f20619e3161a40893bbca5506"
+    }
+  ]
+}
