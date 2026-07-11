@@ -13,10 +13,11 @@ The campaign argues that strategy and delivery should form one continuous proof 
 - `index.html` — candidate vision site
 - `resume.html` — exactly two printable pages
 - `cover-letter.html` — exactly one printable page
-- `interview-brief.html` — interview thesis brief
-- `engagement-canvas.html` — printable AI Engagement Canvas
+- `interview-brief.html` — six-page printable interview thesis brief
+- `engagement-canvas.html` — one-page landscape AI Engagement Canvas
 - `ROLE-INTELLIGENCE.md` — research synthesis and evidence boundaries
-- `docs/` — print-validated PDFs
+
+All document surfaces were print-validated locally before publication.
 
 ## Evidence integrity
 
