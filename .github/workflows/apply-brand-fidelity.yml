@@ -1,0 +1,30 @@
+name: Apply Capitalize brand fidelity
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/apply-brand-fidelity.mjs"
+      - ".github/workflows/apply-brand-fidelity.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/apply-brand-fidelity.mjs
+      - name: Commit brand-fidelity implementation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html resume.html cover-letter.html interview-brief.html 90-day-plan.html engagement-canvas.html styles.css brand-tokens.css brand-intelligence.md campaign-metadata.json artifact-manifest.json README.md assets/brand/
+          git diff --cached --quiet || git commit -m "Implement official Capitalize identity across campaign"
+          git push
