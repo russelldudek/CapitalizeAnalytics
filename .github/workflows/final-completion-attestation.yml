@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "*.html"
+      - "*.md"
       - "styles.css"
       - "brand-tokens.css"
       - "app.js"
