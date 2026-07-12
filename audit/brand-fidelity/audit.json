@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-12T14:04:19.384Z",
-  "auditedSourceSha": "f236f9f1dedbb938bba6cea966becee4137c90e2",
-  "workflowRunId": "29195521883",
+  "generatedAt": "2026-07-12T14:08:40.754Z",
+  "auditedSourceSha": "1b73afd358deb4f9b187b4d287de5d97878dff4c",
+  "workflowRunId": "29195655651",
   "status": "passed",
   "brandFidelity": "passed",
   "visibleCompanyIdentity": "passed",
