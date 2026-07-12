@@ -4,3 +4,8 @@
 @import url("assets/css/responsive.css");
 
 @import url("brand-tokens.css");
+
+/* Keep the landscape canvas inside its fixed print sheet instead of clipping row two. */
+.canvas-paper{display:flex;flex-direction:column}
+.canvas-head{flex:0 0 auto}
+.canvas-grid{flex:1 1 auto;min-height:0;height:auto}
