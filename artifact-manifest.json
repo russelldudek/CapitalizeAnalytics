@@ -1,36 +1,110 @@
 {
-  "schemaVersion": 1,
-  "status": "pending-final-audit",
-  "expectedPaths": [
+  "schemaVersion": 2,
+  "status": "passed",
+  "campaignState": "complete",
+  "repository": "russelldudek/CapitalizeAnalytics",
+  "branch": "main",
+  "auditBasis": {
+    "brandFidelitySourceSha": "f236f9f1dedbb938bba6cea966becee4137c90e2",
+    "brandFidelityRunId": "29195521883",
+    "passingAuditRecordCommit": "801e16e27699d9dd7e60116fba01868b06d4105b",
+    "pdfAudit": "docs/pdf-audit.json",
+    "renderedAudit": "audit/brand-fidelity/audit.json",
+    "liveVerificationContext": "roleforge/pages-live",
+    "brandVerificationContext": "roleforge/brand-fidelity"
+  },
+  "requiredRoutes": [
     "index.html",
     "resume.html",
     "cover-letter.html",
     "interview-brief.html",
     "90-day-plan.html",
-    "engagement-canvas.html",
-    "styles.css",
-    "brand-tokens.css",
-    "app.js",
+    "engagement-canvas.html"
+  ],
+  "brandPackage": [
     "brand-intelligence.md",
+    "brand-tokens.css",
     "campaign-metadata.json",
-    "artifact-manifest.json",
     "assets/brand/capitalize-official-logo.png",
     "assets/brand/capitalize-official-logo-white.png",
     "assets/brand/capitalize-official-favicon.png",
-    "assets/brand/provenance.json",
-    "assets/proof-ledger-mark.svg",
+    "assets/brand/provenance.json"
+  ],
+  "visualSystem": [
+    "styles.css",
     "assets/css/base.css",
     "assets/css/site.css",
     "assets/css/documents.css",
     "assets/css/responsive.css",
-    "docs/Russell-Dudek-Resume-Capitalize.pdf",
-    "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
-    "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
-    "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
-    "docs/AI-Engagement-Canvas-Capitalize.pdf",
-    "docs/pdf-audit.json",
+    "app.js",
+    "assets/proof-ledger-mark.svg"
+  ],
+  "generatedDocuments": [
+    {
+      "path": "docs/Russell-Dudek-Resume-Capitalize.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
+      "pages": 1
+    },
+    {
+      "path": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
+      "pages": 4
+    },
+    {
+      "path": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
+      "pages": 3
+    },
+    {
+      "path": "docs/AI-Engagement-Canvas-Capitalize.pdf",
+      "pages": 1,
+      "orientation": "landscape"
+    },
+    {
+      "path": "docs/pdf-audit.json",
+      "status": "passed"
+    }
+  ],
+  "auditRecords": [
     "README.md",
     "ROLE-INTELLIGENCE.md",
-    "CAMPAIGN-AUDIT.md"
-  ]
+    "BRAND-INTELLIGENCE.md",
+    "brand-intelligence.md",
+    "CAMPAIGN-AUDIT.md",
+    "audit/brand-fidelity/audit.json",
+    "audit/brand-fidelity/summary.md",
+    "audit/brand-fidelity/run-id.txt"
+  ],
+  "workflowSources": [
+    "scripts/generate-pdfs.mjs",
+    "scripts/verify-pages.mjs",
+    "scripts/discover-brand.mjs",
+    "scripts/apply-brand-fidelity.mjs",
+    "scripts/audit-brand-fidelity-v2.mjs",
+    "scripts/capture-brand-comparisons.mjs",
+    "scripts/audit-pdf-brand-renders.mjs",
+    ".github/workflows/build-pdfs.yml",
+    ".github/workflows/verify-pages.yml",
+    ".github/workflows/discover-brand.yml",
+    ".github/workflows/apply-brand-fidelity.yml",
+    ".github/workflows/brand-fidelity-audit.yml"
+  ],
+  "verification": {
+    "mainBranchCompleteness": "passed",
+    "brandFidelity": "passed",
+    "visibleCompanyIdentity": "passed",
+    "officialLogoWordmark": "used",
+    "colorTokenProvenance": "passed",
+    "typographyDecision": "passed",
+    "documentBrandContinuity": "passed",
+    "independentCandidateDistinction": "passed",
+    "responsiveRenderReview": "passed",
+    "reducedMotion": "passed",
+    "roleDerivedMotion": "passed",
+    "pdfPageCounts": "passed",
+    "pdfRenderedBrandContinuity": "passed",
+    "reciprocalDocumentNavigation": "passed",
+    "liveDeployment": "pending exact-head re-verification after this manifest commit"
+  }
 }
