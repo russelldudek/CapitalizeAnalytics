@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-12T13:53:21.499Z",
-  "auditedSourceSha": "98af96809c0022879ef370459a88fb8665ed09db",
-  "workflowRunId": "29195191629",
+  "generatedAt": "2026-07-12T14:04:19.384Z",
+  "auditedSourceSha": "f236f9f1dedbb938bba6cea966becee4137c90e2",
+  "workflowRunId": "29195521883",
   "status": "passed",
   "brandFidelity": "passed",
   "visibleCompanyIdentity": "passed",
@@ -1781,5 +1781,171 @@
         }
       }
     }
-  ]
+  ],
+  "pdfRenderAudit": {
+    "status": "passed",
+    "records": [
+      {
+        "key": "resume",
+        "pdfPath": "docs/Russell-Dudek-Resume-Capitalize.pdf",
+        "expectedPages": 2,
+        "rasterPages": 2,
+        "embeddedImages": 4,
+        "contactSheet": "audit/brand-fidelity/pdf-contact-sheets/resume.webp",
+        "pages": [
+          {
+            "file": "resume-1.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.0191461528262695,
+            "charcoalShare": 0.026262429840456094,
+            "whiteShare": 0.8960259866531135,
+            "bytes": 183060
+          },
+          {
+            "file": "resume-2.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.01403014098201264,
+            "charcoalShare": 0.0230768550846334,
+            "whiteShare": 0.9107906483404782,
+            "bytes": 165689
+          }
+        ]
+      },
+      {
+        "key": "cover-letter",
+        "pdfPath": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
+        "expectedPages": 1,
+        "rasterPages": 1,
+        "embeddedImages": 2,
+        "contactSheet": "audit/brand-fidelity/pdf-contact-sheets/cover-letter.webp",
+        "pages": [
+          {
+            "file": "cover-letter-1.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.010478631723162593,
+            "charcoalShare": 0.023546205860255447,
+            "whiteShare": 0.9224528218500022,
+            "bytes": 114864
+          }
+        ]
+      },
+      {
+        "key": "interview-brief",
+        "pdfPath": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
+        "expectedPages": 4,
+        "rasterPages": 4,
+        "embeddedImages": 2,
+        "contactSheet": "audit/brand-fidelity/pdf-contact-sheets/interview-brief.webp",
+        "pages": [
+          {
+            "file": "interview-brief-1.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": true,
+            "blueShare": 0.9671100897158262,
+            "charcoalShare": 0.000021213594378397488,
+            "whiteShare": 0.01873248773589075,
+            "bytes": 79055
+          },
+          {
+            "file": "interview-brief-2.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.008369646882043577,
+            "charcoalShare": 0.016431696645600388,
+            "whiteShare": 0.930249701683829,
+            "bytes": 100998
+          },
+          {
+            "file": "interview-brief-3.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.008047907367304548,
+            "charcoalShare": 0.01552127988686083,
+            "whiteShare": 0.9312865161090732,
+            "bytes": 101378
+          },
+          {
+            "file": "interview-brief-4.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.006464842886816635,
+            "charcoalShare": 0.01751624165819596,
+            "whiteShare": 0.9351482741857073,
+            "bytes": 103942
+          }
+        ]
+      },
+      {
+        "key": "90-day-plan",
+        "pdfPath": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
+        "expectedPages": 3,
+        "rasterPages": 3,
+        "embeddedImages": 2,
+        "contactSheet": "audit/brand-fidelity/pdf-contact-sheets/90-day-plan.webp",
+        "pages": [
+          {
+            "file": "90-day-plan-1.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": true,
+            "blueShare": 0.9709294206037036,
+            "charcoalShare": 0.000007955097891899059,
+            "whiteShare": 0.016978830600609892,
+            "bytes": 75448
+          },
+          {
+            "file": "90-day-plan-2.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.013249657488840766,
+            "charcoalShare": 0.015188933574932603,
+            "whiteShare": 0.9255447032306536,
+            "bytes": 102455
+          },
+          {
+            "file": "90-day-plan-3.png",
+            "width": 935,
+            "height": 1210,
+            "isNavyCover": false,
+            "blueShare": 0.013064922437795555,
+            "charcoalShare": 0.015121757192734344,
+            "whiteShare": 0.9291545498740443,
+            "bytes": 92702
+          }
+        ]
+      },
+      {
+        "key": "engagement-canvas",
+        "pdfPath": "docs/AI-Engagement-Canvas-Capitalize.pdf",
+        "expectedPages": 1,
+        "rasterPages": 1,
+        "embeddedImages": 2,
+        "contactSheet": "audit/brand-fidelity/pdf-contact-sheets/engagement-canvas.webp",
+        "pages": [
+          {
+            "file": "engagement-canvas-1.png",
+            "width": 1210,
+            "height": 935,
+            "isNavyCover": false,
+            "blueShare": 0.007142794007159588,
+            "charcoalShare": 0.0026172272064347905,
+            "whiteShare": 0.964274539267247,
+            "bytes": 53204
+          }
+        ]
+      }
+    ],
+    "failures": []
+  }
 }
