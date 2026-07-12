@@ -5,9 +5,9 @@
   "repository": "russelldudek/CapitalizeAnalytics",
   "branch": "main",
   "auditBasis": {
-    "brandFidelitySourceSha": "f236f9f1dedbb938bba6cea966becee4137c90e2",
-    "brandFidelityRunId": "29195521883",
-    "passingAuditRecordCommit": "801e16e27699d9dd7e60116fba01868b06d4105b",
+    "latestPassingBrandAuditSourceSha": "1b73afd358deb4f9b187b4d287de5d97878dff4c",
+    "latestPassingBrandAuditRunId": "29195655651",
+    "latestPassingAuditRecordCommit": "245952f0c91fd94e0d5cc6f29bb980bdd14a2a69",
     "pdfAudit": "docs/pdf-audit.json",
     "renderedAudit": "audit/brand-fidelity/audit.json",
     "liveVerificationContext": "roleforge/pages-live",
@@ -105,6 +105,6 @@
     "pdfPageCounts": "passed",
     "pdfRenderedBrandContinuity": "passed",
     "reciprocalDocumentNavigation": "passed",
-    "liveDeployment": "pending exact-head re-verification after this manifest commit"
+    "liveDeployment": "passed through exact-head roleforge/pages-live verification; final audited head is recorded in the completion handoff and RoleForge portfolio index"
   }
 }
