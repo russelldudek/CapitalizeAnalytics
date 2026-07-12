@@ -17,6 +17,7 @@ on:
       - "docs/*.pdf"
       - "scripts/audit-brand-fidelity-v2.mjs"
       - "scripts/audit-pdf-brand-renders.mjs"
+      - "scripts/capture-brand-comparisons.mjs"
       - ".github/workflows/brand-fidelity-audit.yml"
 
 permissions:
@@ -51,6 +52,7 @@ jobs:
           LOCAL_BASE: http://127.0.0.1:4173/
         run: |
           node scripts/audit-brand-fidelity-v2.mjs
+          node scripts/capture-brand-comparisons.mjs
           node scripts/audit-pdf-brand-renders.mjs
       - name: Upload rendered audit bundle
         if: always()
