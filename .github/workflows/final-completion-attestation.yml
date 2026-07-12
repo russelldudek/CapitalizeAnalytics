@@ -1,0 +1,78 @@
+name: Final RoleForge completion attestation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/final-completion-attestation.yml"
+
+permissions:
+  contents: read
+  statuses: write
+  actions: write
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish pending exact-head statuses
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live; do
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="pending" -f context="$CONTEXT" -f description="Exact-head RoleForge completion attestation is running" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-save playwright@1.52.0 pdf-lib@1.17.1 sharp@0.33.5
+      - run: npx playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Start local campaign server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/roleforge-http.log 2>&1 &
+          echo $! > /tmp/roleforge-http.pid
+          for i in {1..30}; do curl -fsS http://127.0.0.1:4173/index.html >/dev/null && break; sleep 1; done
+      - name: Verify committed main manifest
+        run: node scripts/verify-final-manifest.mjs
+      - name: Verify rendered brand, responsive, reduced-motion, and PDF experience
+        env:
+          LOCAL_BASE: http://127.0.0.1:4173/
+        run: |
+          rm -rf audit/final-attestation
+          node scripts/audit-brand-fidelity-v2.mjs
+          node scripts/capture-brand-comparisons.mjs
+          node scripts/audit-pdf-brand-renders.mjs
+          mkdir -p audit/final-attestation
+          cp audit/brand-fidelity/audit.json audit/final-attestation/audit.json
+          cp audit/brand-fidelity/summary.md audit/final-attestation/summary.md
+          cp -R audit/brand-fidelity/screenshots audit/final-attestation/screenshots
+          cp -R audit/brand-fidelity/pdf-contact-sheets audit/final-attestation/pdf-contact-sheets
+      - name: Verify live Pages routes, local brand assets, and exact PDF hashes
+        run: node scripts/verify-pages.mjs
+      - name: Upload exact-head attestation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capitalize-final-roleforge-attestation
+          path: audit/final-attestation/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish successful exact-head statuses
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/campaign-completion" -f description="Manifest, Brand Fidelity, documents, renders, and live deployment passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/brand-fidelity" -f description="Exact-head Brand Fidelity and rendered audit passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/pages-live" -f description="Exact-head live routes, brand assets, and PDF hashes verified" -f target_url="https://russelldudek.github.io/CapitalizeAnalytics/"
+      - name: Publish failed exact-head statuses
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live; do
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="failure" -f context="$CONTEXT" -f description="Exact-head RoleForge completion attestation failed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          done
