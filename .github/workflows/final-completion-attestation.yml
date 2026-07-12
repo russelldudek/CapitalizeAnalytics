@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live roleforge/resume-pagination; do
+          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live roleforge/resume-pagination roleforge/entire-site-qa; do
             gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="pending" -f context="$CONTEXT" -f description="Exact-head RoleForge completion attestation is running" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           done
       - uses: actions/setup-node@v4
@@ -47,12 +47,13 @@ jobs:
           for i in {1..30}; do curl -fsS http://127.0.0.1:4173/index.html >/dev/null && break; sleep 1; done
       - name: Verify committed main manifest
         run: node scripts/verify-final-manifest.mjs
-      - name: Verify rendered site, brand, resume pagination, and PDFs
+      - name: Verify rendered site, brand, all routes, resume pagination, and PDFs
         env:
           LOCAL_BASE: http://127.0.0.1:4173/
         run: |
           rm -rf audit/final-attestation
           node scripts/audit-brand-fidelity-v2.mjs
+          node scripts/audit-entire-site.mjs
           node scripts/audit-resume-pagination.mjs
           node scripts/capture-brand-comparisons.mjs
           node scripts/audit-pdf-brand-renders.mjs
@@ -61,6 +62,7 @@ jobs:
           cp audit/brand-fidelity/summary.md audit/final-attestation/summary.md
           cp -R audit/brand-fidelity/screenshots audit/final-attestation/screenshots
           cp -R audit/brand-fidelity/pdf-contact-sheets audit/final-attestation/pdf-contact-sheets
+          cp -R audit/entire-site audit/final-attestation/entire-site
           cp -R audit/resume-pagination audit/final-attestation/resume-pagination
       - name: Verify live Pages routes, local brand assets, and exact PDF hashes
         run: node scripts/verify-pages.mjs
@@ -81,11 +83,12 @@ jobs:
           gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/brand-fidelity" -f description="Exact-head Brand Fidelity and rendered audit passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/pages-live" -f description="Exact-head live routes, brand assets, and PDF hashes verified" -f target_url="https://russelldudek.github.io/CapitalizeAnalytics/"
           gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/resume-pagination" -f description="Resume screen, print, PDF page count, footer clearance, and page balance passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/entire-site-qa" -f description="All routes, viewports, print canvases, interactions, images, and PDFs passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
       - name: Publish failed exact-head statuses
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live roleforge/resume-pagination; do
+          for CONTEXT in roleforge/campaign-completion roleforge/brand-fidelity roleforge/pages-live roleforge/resume-pagination roleforge/entire-site-qa; do
             gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="failure" -f context="$CONTEXT" -f description="Exact-head RoleForge completion attestation failed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           done
