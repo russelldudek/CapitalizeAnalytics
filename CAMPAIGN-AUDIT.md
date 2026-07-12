@@ -26,6 +26,45 @@ The earlier campaign met the prior content, motion, document, and publication co
 - Extended the same restrained company-specific grammar to the résumé, cover letter, interview brief, 90-day plan, Engagement Canvas, and generated PDFs.
 - Retained the AI Proof Ledger as Russell's role-specific argument rather than copying the company's website.
 
+## Full-site clipping and responsive repair
+
+A later user visual review correctly identified that the campaign was not visually complete despite earlier passing checks.
+
+The pre-fix full-site audit run `29205598510` failed 13 of 365 assertions:
+
+- the AI Engagement Canvas grid required 880 px inside an 816 px fixed landscape canvas, while `overflow:hidden` concealed the final 64 px;
+- the second row of the canvas extended below the page in desktop, laptop, tablet, mobile, and print-equivalent layouts;
+- fixed 8.5-inch document canvases overflowed the 768 px tablet viewport;
+- mobile résumé, cover-letter, interview-brief, entry-plan, and canvas previews were visually sliced to the right even where the root element did not report overflow.
+
+Repairs:
+
+- changed the landscape canvas to a flex column so its grid consumes the actual remaining sheet height;
+- retained the exact 11 × 8.5-inch print canvas and one-page PDF contract;
+- added screen-only document reflow below 900 px while leaving print media unchanged;
+- changed résumé, cover-letter, brief, plan, and canvas previews to fluid-width, auto-height reading layouts on tablet and mobile;
+- recomposed canvas cells to two columns on tablet and one column on mobile;
+- moved document footers into normal flow for responsive screen views while preserving fixed print furniture;
+- added route-level checks for root and document-body overflow, hidden fixed-canvas overflow, descendants beyond page boundaries, image loading, alt attributes, duplicate IDs, keyboard interaction, mobile navigation, print layouts, reduced motion, and PDF page counts.
+
+Passing full-site audit run `29205744818` completed 533 assertions with zero failures across:
+
+- `index.html`;
+- `resume.html`;
+- `cover-letter.html`;
+- `interview-brief.html`;
+- `90-day-plan.html`;
+- `engagement-canvas.html`;
+- 1440 × 900 desktop;
+- 1280 × 800 laptop;
+- 768 × 1024 tablet;
+- 390 × 844 mobile;
+- print media for every document route;
+- reduced-motion mode;
+- all generated PDF page counts.
+
+The exact-head completion workflow now runs `scripts/audit-entire-site.mjs` and publishes the permanent `roleforge/entire-site-qa` commit status. A campaign cannot pass exact-head attestation if any route hides or clips content again.
+
 ## Functional manifest
 
 - `index.html`
@@ -46,16 +85,15 @@ The earlier campaign met the prior content, motion, document, and publication co
 - `assets/brand/provenance.json`
 - modular site/document/responsive CSS
 - five generated PDFs and `docs/pdf-audit.json`
+- `scripts/audit-entire-site.mjs`
+- `.github/workflows/entire-site-qa.yml`
+- exact-head completion workflow with full-site QA
 - `ROLE-INTELLIGENCE.md`
 - `README.md`
 - `CAMPAIGN-AUDIT.md`
 - `audit/brand-fidelity/audit.json`
 
-## Rendered Brand Fidelity Audit
-
-Passing workflow run: `29195521883`  
-Audited source SHA: `f236f9f1dedbb938bba6cea966becee4137c90e2`  
-Passing audit-record commit: `801e16e27699d9dd7e60116fba01868b06d4105b`
+## Rendered Brand Fidelity and campaign QA
 
 Verified:
 
@@ -65,7 +103,8 @@ Verified:
 - Lora/Open Sans implementation matches the documented typography decision;
 - complete-page renders at 1440 × 900, 1280 × 800, 768 × 1024, and 390 × 844;
 - side-by-side rendered comparisons with the current official Capitalize homepage;
-- no horizontal overflow or clipped visual systems;
+- no root, document-body, fixed-canvas, or print-canvas clipping;
+- readable reflowed document previews at tablet and mobile widths;
 - six-record role-derived Ledger motion;
 - keyboard-operable scenario state changes;
 - complete reduced-motion treatment with all records and controls available;
@@ -75,7 +114,7 @@ Verified:
 - rasterized review of every PDF page;
 - embedded official brand imagery in every PDF;
 - Capitalize blue/navy rendering and appropriate white-on-navy or charcoal-on-light contrast;
-- résumé exactly two pages, cover letter one, interview brief four, 90-day plan three, and Engagement Canvas one landscape page.
+- résumé exactly two pages, cover letter one, interview brief four, 90-day plan three, and Engagement Canvas one complete landscape page.
 
 ## Evidence integrity
 
