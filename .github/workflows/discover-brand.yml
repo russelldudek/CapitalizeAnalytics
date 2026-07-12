@@ -1,0 +1,30 @@
+name: Discover official Capitalize brand assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/discover-brand.mjs"
+      - ".github/workflows/discover-brand.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/discover-brand.mjs
+      - name: Commit official brand evidence and assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add brand-discovery.json assets/brand/
+          git diff --cached --quiet || git commit -m "Capture official Capitalize brand assets and evidence"
+          git push
