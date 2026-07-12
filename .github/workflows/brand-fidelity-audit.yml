@@ -15,7 +15,7 @@ on:
       - "assets/css/*.css"
       - "assets/brand/**"
       - "docs/*.pdf"
-      - "scripts/audit-brand-fidelity.mjs"
+      - "scripts/audit-brand-fidelity-v2.mjs"
       - ".github/workflows/brand-fidelity-audit.yml"
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
         continue-on-error: true
         env:
           LOCAL_BASE: http://127.0.0.1:4173/
-        run: node scripts/audit-brand-fidelity.mjs
+        run: node scripts/audit-brand-fidelity-v2.mjs
       - name: Upload rendered audit bundle
         if: always()
         uses: actions/upload-artifact@v4
