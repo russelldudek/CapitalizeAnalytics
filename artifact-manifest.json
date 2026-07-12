@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "passed",
   "campaignState": "complete",
   "repository": "russelldudek/CapitalizeAnalytics",
   "branch": "main",
   "auditBasis": {
-    "latestPassingBrandAuditSourceSha": "1b73afd358deb4f9b187b4d287de5d97878dff4c",
-    "latestPassingBrandAuditRunId": "29195655651",
-    "latestPassingAuditRecordCommit": "245952f0c91fd94e0d5cc6f29bb980bdd14a2a69",
     "pdfAudit": "docs/pdf-audit.json",
     "renderedAudit": "audit/brand-fidelity/audit.json",
     "liveVerificationContext": "roleforge/pages-live",
-    "brandVerificationContext": "roleforge/brand-fidelity"
+    "brandVerificationContext": "roleforge/brand-fidelity",
+    "resumePaginationContext": "roleforge/resume-pagination",
+    "entireSiteVerificationContext": "roleforge/entire-site-qa",
+    "entireSiteAuditScope": "six routes at desktop, laptop, tablet, mobile, print media, reduced motion, interactions, image loading, fixed-canvas clipping, responsive overflow, and PDF page counts"
   },
   "requiredRoutes": [
     "index.html",
@@ -82,13 +82,17 @@
     "scripts/discover-brand.mjs",
     "scripts/apply-brand-fidelity.mjs",
     "scripts/audit-brand-fidelity-v2.mjs",
+    "scripts/audit-entire-site.mjs",
+    "scripts/audit-resume-pagination.mjs",
     "scripts/capture-brand-comparisons.mjs",
     "scripts/audit-pdf-brand-renders.mjs",
     ".github/workflows/build-pdfs.yml",
     ".github/workflows/verify-pages.yml",
     ".github/workflows/discover-brand.yml",
     ".github/workflows/apply-brand-fidelity.yml",
-    ".github/workflows/brand-fidelity-audit.yml"
+    ".github/workflows/brand-fidelity-audit.yml",
+    ".github/workflows/entire-site-qa.yml",
+    ".github/workflows/final-completion-attestation.yml"
   ],
   "verification": {
     "mainBranchCompleteness": "passed",
@@ -100,6 +104,9 @@
     "documentBrandContinuity": "passed",
     "independentCandidateDistinction": "passed",
     "responsiveRenderReview": "passed",
+    "entireSiteQA": "passed",
+    "fixedCanvasClipping": "passed",
+    "screenDocumentReflow": "passed",
     "reducedMotion": "passed",
     "roleDerivedMotion": "passed",
     "pdfPageCounts": "passed",
