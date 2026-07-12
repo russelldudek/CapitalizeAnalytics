@@ -16,6 +16,7 @@ on:
       - "assets/brand/**"
       - "docs/*.pdf"
       - "scripts/audit-brand-fidelity-v2.mjs"
+      - "scripts/audit-pdf-brand-renders.mjs"
       - ".github/workflows/brand-fidelity-audit.yml"
 
 permissions:
@@ -37,17 +38,20 @@ jobs:
           node-version: "22"
       - run: npm install --no-save playwright@1.52.0 pdf-lib@1.17.1 sharp@0.33.5
       - run: npx playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Start local campaign server
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/roleforge-http.log 2>&1 &
           echo $! > /tmp/roleforge-http.pid
           for i in {1..30}; do curl -fsS http://127.0.0.1:4173/index.html >/dev/null && break; sleep 1; done
-      - name: Run rendered brand audit
+      - name: Run rendered brand and PDF audit
         id: audit
         continue-on-error: true
         env:
           LOCAL_BASE: http://127.0.0.1:4173/
-        run: node scripts/audit-brand-fidelity-v2.mjs
+        run: |
+          node scripts/audit-brand-fidelity-v2.mjs
+          node scripts/audit-pdf-brand-renders.mjs
       - name: Upload rendered audit bundle
         if: always()
         uses: actions/upload-artifact@v4
@@ -71,7 +75,7 @@ jobs:
           AUDIT_OUTCOME: ${{ steps.audit.outcome }}
         run: |
           FINAL_SHA=$(git rev-parse HEAD)
-          if [ "$AUDIT_OUTCOME" = "success" ]; then STATE=success; DESCRIPTION="Brand Fidelity and rendered campaign audit passed"; else STATE=failure; DESCRIPTION="Brand Fidelity or rendered campaign audit failed"; fi
+          if [ "$AUDIT_OUTCOME" = "success" ]; then STATE=success; DESCRIPTION="Brand Fidelity, responsive render, and PDF audit passed"; else STATE=failure; DESCRIPTION="Brand Fidelity, responsive render, or PDF audit failed"; fi
           gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${FINAL_SHA}" -f state="$STATE" -f context="roleforge/brand-fidelity" -f description="$DESCRIPTION" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
       - name: Fail workflow when audit fails
         if: steps.audit.outcome != 'success'
