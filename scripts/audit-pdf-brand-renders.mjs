@@ -28,6 +28,9 @@ function isBrandBlue(r, g, b) {
 function isCharcoal(r, g, b) {
   return r < 75 && g < 80 && b < 90 && Math.max(r, g, b) - Math.min(r, g, b) < 38;
 }
+function isWhite(r, g, b) {
+  return r > 225 && g > 225 && b > 225;
+}
 
 for (const [key, pdfPath, expectedPages] of pdfs) {
   const prefix = path.join(pageDir, key);
@@ -41,9 +44,10 @@ for (const [key, pdfPath, expectedPages] of pdfs) {
     const filePath = path.join(pageDir, file);
     const image = sharp(filePath);
     const metadata = await image.metadata();
-    const { data, info } = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const { data } = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     let blue = 0;
     let charcoal = 0;
+    let white = 0;
     let visible = 0;
     for (let i = 0; i < data.length; i += 4) {
       const r = data[i], g = data[i + 1], b = data[i + 2], a = data[i + 3];
@@ -51,12 +55,19 @@ for (const [key, pdfPath, expectedPages] of pdfs) {
       visible += 1;
       if (isBrandBlue(r, g, b)) blue += 1;
       if (isCharcoal(r, g, b)) charcoal += 1;
+      if (isWhite(r, g, b)) white += 1;
     }
     const blueShare = blue / Math.max(visible, 1);
     const charcoalShare = charcoal / Math.max(visible, 1);
+    const whiteShare = white / Math.max(visible, 1);
+    const isNavyCover = blueShare > 0.5;
     if (blueShare < 0.0004) failures.push(`${pdfPath} ${file}: insufficient Capitalize blue/navy rendering (${blueShare.toFixed(6)})`);
-    if (charcoalShare < 0.001) failures.push(`${pdfPath} ${file}: insufficient charcoal text/identity rendering (${charcoalShare.toFixed(6)})`);
-    pageRecords.push({ file, width: metadata.width, height: metadata.height, blueShare, charcoalShare, bytes: (await stat(filePath)).size });
+    if (isNavyCover) {
+      if (whiteShare < 0.003) failures.push(`${pdfPath} ${file}: navy cover lacks sufficient white typography/identity contrast (${whiteShare.toFixed(6)})`);
+    } else if (charcoalShare < 0.001) {
+      failures.push(`${pdfPath} ${file}: light page lacks sufficient charcoal text/identity rendering (${charcoalShare.toFixed(6)})`);
+    }
+    pageRecords.push({ file, width: metadata.width, height: metadata.height, isNavyCover, blueShare, charcoalShare, whiteShare, bytes: (await stat(filePath)).size });
     thumbs.push(await sharp(filePath).resize({ width: 430, height: 556, fit: 'contain', background: '#fff' }).png().toBuffer());
   }
 
