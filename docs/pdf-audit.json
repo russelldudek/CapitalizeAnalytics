@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-11T22:21:13.857Z",
-  "generatedFrom": "f5751359e2d6f878679b652c84108acc66b0be37",
+  "generatedAt": "2026-07-12T13:46:05.515Z",
+  "generatedFrom": "2b002221fe22545897ebbd20afc1a0e780d2ecb6",
   "status": "passed",
   "files": [
     {
@@ -8,40 +8,40 @@
       "source": "resume.html",
       "expectedPages": 2,
       "pageCount": 2,
-      "bytes": 146802,
-      "sha256": "d9a468e6271069e494ee7b208b997f4e35d4b28f6c008bf9c50f54d19ade346f"
+      "bytes": 227615,
+      "sha256": "addd0cda1931a5211be983652592ddd52c146af4fa2b6a46daa626fc3bb6fbda"
     },
     {
       "file": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
       "source": "cover-letter.html",
       "expectedPages": 1,
       "pageCount": 1,
-      "bytes": 98628,
-      "sha256": "887486dfcc336162d21414a9f7d614b01b4a03a941c18181d5d3c233a11cf6b5"
+      "bytes": 99475,
+      "sha256": "2f0914ce1926ddc9b35ae2d25987fc9793139f66743857711ad9942f4b1e28c1"
     },
     {
       "file": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
       "source": "interview-brief.html",
       "expectedPages": 4,
       "pageCount": 4,
-      "bytes": 130502,
-      "sha256": "e95b010af3d95328e75a055976febb505a8ee14ea2c14a5df62f83da9dedd48e"
+      "bytes": 209431,
+      "sha256": "a4921c79df2d94436f7ecb6bef9196f54724635c654f4e2a739fa75fc18f53f7"
     },
     {
       "file": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
       "source": "90-day-plan.html",
       "expectedPages": 3,
       "pageCount": 3,
-      "bytes": 137246,
-      "sha256": "7b95eb95625ca13f297d10e4f3be85539f7cc6d2a01914eafbb790a762633d07"
+      "bytes": 210326,
+      "sha256": "d145d91b321527154a57235bf0d0192a3c05fd386c9e8e4f94790c5a3b7ed955"
     },
     {
       "file": "docs/AI-Engagement-Canvas-Capitalize.pdf",
       "source": "engagement-canvas.html",
       "expectedPages": 1,
       "pageCount": 1,
-      "bytes": 50264,
-      "sha256": "2fb9002e3f743ead4479c22b4ab849ccfbe9585f20619e3161a40893bbca5506"
+      "bytes": 82552,
+      "sha256": "e91a3366ef60cce272e96015f1ccd2b97b73eaa5003649d63506d988e4c6d224"
     }
   ]
 }
