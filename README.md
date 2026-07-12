@@ -45,3 +45,8 @@ Candidate claims are restricted to verified RoleForge evidence. Company-specific
 ## Publication
 
 Static site configured for GitHub Pages from `main` and `/(root)`. The final audited `main` head is recorded in the RoleForge portfolio index and completion handoff after the last commit.
+
+
+## Brand fidelity
+
+The campaign uses the locally committed official Capitalize wordmark and favicon, official/source-derived blue and charcoal tokens, Lora/Open Sans typography evidence, and an explicit independent-candidate qualifier. See `brand-intelligence.md`, `brand-tokens.css`, and `assets/brand/`.

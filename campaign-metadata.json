@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "suggestedChatName": "Capitalize Analytics – AI Senior Consultant",
+  "company": "Capitalize Analytics",
+  "canonicalRole": "AI Senior Consultant",
+  "candidate": "Russell Dudek",
+  "repository": "russelldudek/CapitalizeAnalytics",
+  "branch": "main",
+  "jobPosting": "https://ats.rippling.com/capitalize-data-analytics-llc/jobs/014035f0-0e5f-47f8-970c-53906fa7d152",
+  "liveSite": "https://russelldudek.github.io/CapitalizeAnalytics/",
+  "printStandard": "US Letter; AI Engagement Canvas uses US Letter landscape",
+  "independentCandidateStatement": "Independent candidate work product by Russell Dudek. Capitalize Analytics has not sponsored or endorsed this campaign.",
+  "brandPackage": {
+    "intelligence": "brand-intelligence.md",
+    "tokens": "brand-tokens.css",
+    "assetsDirectory": "assets/brand/",
+    "officialLogo": "assets/brand/capitalize-official-logo.png",
+    "officialWhiteLogo": "assets/brand/capitalize-official-logo-white.png",
+    "officialFavicon": "assets/brand/capitalize-official-favicon.png"
+  }
+}
