@@ -1,0 +1,745 @@
+{
+  "generatedAt": "2026-07-12T13:35:18.468Z",
+  "officialHomepage": "https://capitalizeconsulting.com/",
+  "homepageStatus": 200,
+  "primaryLogo": {
+    "sourceUrl": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+    "resolvedUrl": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+    "localPath": "assets/brand/capitalize-official-logo.png",
+    "contentType": "image/png",
+    "bytes": 3802,
+    "sha256": "3629f4721fd515db0b929ee2dd3c541d062e02aa3e34b6599934252e5ddf1fbe"
+  },
+  "compactMark": {
+    "sourceUrl": "https://capitalizeconsulting.com/wp-content/uploads/2018/09/favicon.png",
+    "resolvedUrl": "https://capitalizeconsulting.com/wp-content/uploads/2018/09/favicon.png",
+    "localPath": "assets/brand/capitalize-official-favicon.png",
+    "contentType": "image/png",
+    "bytes": 797,
+    "sha256": "cbdb6d7626b43e1b10c9957559faf31891c9923a2fa6c3f022b5bb19ba29e95e"
+  },
+  "rankedLogoCandidates": [
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+      "alt": "",
+      "className": "attachment-large size-large wp-image-25984",
+      "id": "",
+      "width": "155",
+      "height": "58",
+      "raw": "<img width=\"155\" height=\"58\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png\" class=\"attachment-large size-large wp-image-25984\" alt=\"\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+      "alt": "",
+      "className": "attachment-full size-full wp-image-23623",
+      "id": "",
+      "width": "155",
+      "height": "53",
+      "raw": "<img width=\"155\" height=\"53\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png\" class=\"attachment-full size-full wp-image-23623\" alt=\"\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-Splunk-logo-1.png",
+      "alt": "Transparent Splunk logo (1)",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-Splunk-logo-1.png\" alt=\"Transparent Splunk logo (1)\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/10/png-transparent-databricks-logo-tech-companies.png",
+      "alt": "png-transparent-databricks-logo-tech-companies",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/10/png-transparent-databricks-logo-tech-companies.png\" alt=\"png-transparent-databricks-logo-tech-companies\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/12/Workday-Logo-Website-Reel.png",
+      "alt": "Workday Logo - Website Reel",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/12/Workday-Logo-Website-Reel.png\" alt=\"Workday Logo - Website Reel\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/12/UiPath-Logo-Updated-Website-Reel.png",
+      "alt": "UiPath Logo Updated - Website Reel",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/12/UiPath-Logo-Updated-Website-Reel.png\" alt=\"UiPath Logo Updated - Website Reel\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/11/Tableau-Logo.png",
+      "alt": "Tableau-Logo",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/11/Tableau-Logo.png\" alt=\"Tableau-Logo\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/10/Openai-logo-web.png",
+      "alt": "Openai logo web",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/10/Openai-logo-web.png\" alt=\"Openai logo web\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/11/n8n-1024x289-web.png",
+      "alt": "n8n-1024x289 web logo",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/11/n8n-1024x289-web.png\" alt=\"n8n-1024x289 web logo\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/10/claude-ai-logo-d862-web.png",
+      "alt": "claude-ai-logo-d862 web",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/10/claude-ai-logo-d862-web.png\" alt=\"claude-ai-logo-d862 web\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/10/Perpelxity-logo.webp",
+      "alt": "Perpelxity logo",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/10/Perpelxity-logo.webp\" alt=\"Perpelxity logo\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-Gemini-logo-165x60-1.png",
+      "alt": "Transparent Gemini logo 165x60 (1)",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-Gemini-logo-165x60-1.png\" alt=\"Transparent Gemini logo 165x60 (1)\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-SAP-logo-165x60-1.png",
+      "alt": "Transparent SAP logo 165x60 (1)",
+      "className": "swiper-slide-image",
+      "id": "",
+      "width": "",
+      "height": "",
+      "raw": "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2025/12/Transparent-SAP-logo-165x60-1.png\" alt=\"Transparent SAP logo 165x60 (1)\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/Capitalize-Only-Logo-Website-White.png",
+      "alt": "",
+      "className": "attachment-large size-large wp-image-25988",
+      "id": "",
+      "width": "155",
+      "height": "53",
+      "raw": "<img width=\"155\" height=\"53\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2024/08/Capitalize-Only-Logo-Website-White.png\" class=\"attachment-large size-large wp-image-25988\" alt=\"\" />",
+      "score": 80
+    },
+    {
+      "url": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+      "alt": "",
+      "className": "attachment-full size-full wp-image-17302",
+      "id": "",
+      "width": "50",
+      "height": "50",
+      "raw": "<img loading=\"lazy\" decoding=\"async\" width=\"50\" height=\"50\" src=\"https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png\" class=\"attachment-full size-full wp-image-17302\" alt=\"\" srcset=\"https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png 50w, https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing-45x45.png 45w\" sizes=\"(max-width: 50px) 100vw, 50px\" />",
+      "score": 30
+    }
+  ],
+  "iconCandidates": [
+    "https://capitalizeconsulting.com/wp-content/uploads/2018/09/favicon.png"
+  ],
+  "stylesheetSources": [
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/search-filter/style.css?ver=1",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/search-filter/style.css?ver=1",
+      "bytes": 577
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-includes/css/dist/components/style.min.css?ver=13149530a52298eff5930af4e8429b50",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-includes/css/dist/components/style.min.css?ver=13149530a52298eff5930af4e8429b50",
+      "bytes": 100222
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2",
+      "bytes": 12886
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.16",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.16",
+      "bytes": 6641
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.21",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.21",
+      "bytes": 37363
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9",
+      "bytes": 5496
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9",
+      "bytes": 5097
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9",
+      "bytes": 7182
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.4",
+      "bytes": 54666
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/uploads/elementor/css/post-22686.css?ver=1783792016",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/uploads/elementor/css/post-22686.css?ver=1783792016",
+      "bytes": 3410
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/uploads/premium-addons-elementor/pafe-22826.css?ver=1778237877",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/uploads/premium-addons-elementor/pafe-22826.css?ver=1778237877",
+      "bytes": 52679
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/liquid-glass.min.css?ver=4.11.85",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/liquid-glass.min.css?ver=4.11.85",
+      "bytes": 8405
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-includes/css/dashicons.min.css?ver=13149530a52298eff5930af4e8429b50",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-includes/css/dashicons.min.css?ver=13149530a52298eff5930af4e8429b50",
+      "bytes": 59004
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.11.85",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.11.85",
+      "bytes": 59344
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.4",
+      "bytes": 214
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.1.2",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.1.2",
+      "bytes": 162
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=4.1.2",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=4.1.2",
+      "bytes": 4804
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=4.1.4",
+      "bytes": 1657
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4",
+      "bytes": 5110
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.1.4",
+      "bytes": 6713
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.1.4",
+      "bytes": 560
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4",
+      "bytes": 10255
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "bytes": 16471
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.1.4",
+      "bytes": 5486
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/widget-nested-carousel.min.css?ver=4.1.2",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor-pro/assets/css/widget-nested-carousel.min.css?ver=4.1.2",
+      "bytes": 9760
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.1.4",
+      "bytes": 4258
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.1.4",
+      "bytes": 1793
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-nested-tabs.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-nested-tabs.min.css?ver=4.1.4",
+      "bytes": 14818
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.1.4",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.1.4",
+      "bytes": 342
+    },
+    {
+      "sourceUrl": "https://capitalizeconsulting.com/wp-content/uploads/elementor/css/post-23132.css?ver=1783792017",
+      "resolvedUrl": "https://capitalizeconsulting.com/wp-content/uploads/elementor/css/post-23132.css?ver=1783792017",
+      "bytes": 140074
+    }
+  ],
+  "typographyEvidence": {
+    "fontFamilies": [
+      {
+        "value": "Open Sans\", Sans-serif",
+        "count": 54
+      },
+      {
+        "value": "Lora\", Sans-serif",
+        "count": 25
+      },
+      {
+        "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+        "count": 14
+      },
+      {
+        "value": "inherit",
+        "count": 12
+      },
+      {
+        "value": "Lora",
+        "count": 4
+      },
+      {
+        "value": "eicons",
+        "count": 3
+      },
+      {
+        "value": "Open Sans",
+        "count": 3
+      },
+      {
+        "value": "Font Awesome 5 Free",
+        "count": 3
+      },
+      {
+        "value": "arial",
+        "count": 2
+      },
+      {
+        "value": "monospace,monospace",
+        "count": 2
+      },
+      {
+        "value": "dashicons",
+        "count": 2
+      },
+      {
+        "value": "Font Awesome 5 Brands",
+        "count": 2
+      },
+      {
+        "value": "swiper-icons",
+        "count": 2
+      },
+      {
+        "value": "Open Sans !important",
+        "count": 2
+      },
+      {
+        "value": "-apple-system,\"system-ui\",Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+        "count": 1
+      },
+      {
+        "value": "GD Sherpa,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+        "count": 1
+      },
+      {
+        "value": "sans-serif",
+        "count": 1
+      },
+      {
+        "value": "Trebuchet MS,Tahoma,Verdana,Arial,sans-serif",
+        "count": 1
+      },
+      {
+        "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+        "count": 1
+      },
+      {
+        "value": "Roboto",
+        "count": 1
+      }
+    ],
+    "fontFaces": [
+      {
+        "value": "Font Awesome 5 Free",
+        "count": 2
+      },
+      {
+        "value": "dashicons",
+        "count": 1
+      },
+      {
+        "value": "Font Awesome 5 Brands",
+        "count": 1
+      },
+      {
+        "value": "swiper-icons",
+        "count": 1
+      }
+    ]
+  },
+  "colorEvidence": {
+    "hexColors": [
+      {
+        "value": "#fff",
+        "count": 123
+      },
+      {
+        "value": "#0000",
+        "count": 69
+      },
+      {
+        "value": "#3858e9",
+        "count": 58
+      },
+      {
+        "value": "#1e1e1e",
+        "count": 41
+      },
+      {
+        "value": "#eee",
+        "count": 31
+      },
+      {
+        "value": "#000",
+        "count": 25
+      },
+      {
+        "value": "#cc1818",
+        "count": 19
+      },
+      {
+        "value": "#949494",
+        "count": 18
+      },
+      {
+        "value": "#ccc",
+        "count": 18
+      },
+      {
+        "value": "#e0e0e0",
+        "count": 18
+      },
+      {
+        "value": "#012571",
+        "count": 18
+      },
+      {
+        "value": "#00000040",
+        "count": 17
+      },
+      {
+        "value": "#aaa",
+        "count": 17
+      },
+      {
+        "value": "#A8A8A8",
+        "count": 16
+      },
+      {
+        "value": "#ddd",
+        "count": 15
+      },
+      {
+        "value": "#1e1e1e9e",
+        "count": 15
+      },
+      {
+        "value": "#757575",
+        "count": 11
+      },
+      {
+        "value": "#000000",
+        "count": 11
+      },
+      {
+        "value": "#FFFFFF00",
+        "count": 11
+      },
+      {
+        "value": "#69727d",
+        "count": 10
+      },
+      {
+        "value": "#f0f0f0",
+        "count": 8
+      },
+      {
+        "value": "#183ad6",
+        "count": 8
+      },
+      {
+        "value": "#00000005",
+        "count": 8
+      },
+      {
+        "value": "#333",
+        "count": 8
+      },
+      {
+        "value": "#5897fb",
+        "count": 8
+      },
+      {
+        "value": "#55595c",
+        "count": 8
+      },
+      {
+        "value": "#787878",
+        "count": 8
+      },
+      {
+        "value": "#999",
+        "count": 7
+      },
+      {
+        "value": "#f4f4f4",
+        "count": 7
+      },
+      {
+        "value": "#0003",
+        "count": 6
+      },
+      {
+        "value": "#494c4f",
+        "count": 6
+      },
+      {
+        "value": "#4ab866",
+        "count": 5
+      },
+      {
+        "value": "#00000008",
+        "count": 5
+      },
+      {
+        "value": "#111",
+        "count": 5
+      },
+      {
+        "value": "#666",
+        "count": 5
+      },
+      {
+        "value": "#888",
+        "count": 5
+      },
+      {
+        "value": "#d9534f",
+        "count": 5
+      },
+      {
+        "value": "#0000000a",
+        "count": 4
+      },
+      {
+        "value": "#00a4a6",
+        "count": 4
+      },
+      {
+        "value": "#444",
+        "count": 4
+      },
+      {
+        "value": "#3875d7",
+        "count": 4
+      },
+      {
+        "value": "#e8e8e8",
+        "count": 4
+      },
+      {
+        "value": "#FFEEEEEE",
+        "count": 4
+      },
+      {
+        "value": "#c36",
+        "count": 4
+      },
+      {
+        "value": "#042551",
+        "count": 4
+      },
+      {
+        "value": "#f0b849",
+        "count": 3
+      },
+      {
+        "value": "#2145e6",
+        "count": 3
+      },
+      {
+        "value": "#0000000d",
+        "count": 3
+      },
+      {
+        "value": "#848484",
+        "count": 3
+      },
+      {
+        "value": "#e4e4e4",
+        "count": 3
+      },
+      {
+        "value": "#f7f7f7",
+        "count": 3
+      },
+      {
+        "value": "#FFFFFFFF",
+        "count": 3
+      },
+      {
+        "value": "#BBB",
+        "count": 3
+      },
+      {
+        "value": "#FFF",
+        "count": 3
+      },
+      {
+        "value": "#526E91",
+        "count": 3
+      },
+      {
+        "value": "#5cb85c",
+        "count": 3
+      },
+      {
+        "value": "#54595f",
+        "count": 3
+      },
+      {
+        "value": "#3f444b",
+        "count": 3
+      },
+      {
+        "value": "#33373d",
+        "count": 3
+      },
+      {
+        "value": "#02010100",
+        "count": 3
+      }
+    ],
+    "rgbColors": [
+      {
+        "value": "rgba(0,0,0,.3)",
+        "count": 10
+      },
+      {
+        "value": "rgba(0,0,0,0)",
+        "count": 5
+      },
+      {
+        "value": "rgba(0,0,0,.1)",
+        "count": 5
+      },
+      {
+        "value": "rgba(0,0,0,.5)",
+        "count": 5
+      },
+      {
+        "value": "rgba(0,0,0,.15)",
+        "count": 4
+      },
+      {
+        "value": "rgba(0,0,0,.05)",
+        "count": 4
+      },
+      {
+        "value": "rgba(0,0,0,.6)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255,255,255,.6)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255,255,255,.7)",
+        "count": 2
+      },
+      {
+        "value": "rgba(255,255,255,.5)",
+        "count": 2
+      },
+      {
+        "value": "rgba(4,4,4,.91)",
+        "count": 1
+      },
+      {
+        "value": "rgba(0,0,0,.102)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255,255,255,.65)",
+        "count": 1
+      },
+      {
+        "value": "rgba(255,255,255,.45)",
+        "count": 1
+      },
+      {
+        "value": "rgba(0,0,0,.8)",
+        "count": 1
+      },
+      {
+        "value": "rgba(0,0,0,.25)",
+        "count": 1
+      }
+    ]
+  },
+  "notes": [
+    "Assets were fetched from the official Capitalize Analytics website for nominative employer identification.",
+    "No font files are downloaded or committed by this process.",
+    "Color frequencies are evidence for review, not automatic claims of official brand tokens."
+  ]
+}
