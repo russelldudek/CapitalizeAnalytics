@@ -1,0 +1,61 @@
+name: Entire site QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.html"
+      - "styles.css"
+      - "brand-tokens.css"
+      - "assets/css/*.css"
+      - "assets/brand/**"
+      - "app.js"
+      - "docs/*.pdf"
+      - "scripts/audit-entire-site.mjs"
+      - ".github/workflows/entire-site-qa.yml"
+
+permissions:
+  contents: read
+  statuses: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish pending status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="pending" -f context="roleforge/entire-site-qa" -f description="Full route, viewport, document, and PDF audit is running" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-save playwright@1.52.0 pdf-lib@1.17.1
+      - run: npx playwright install --with-deps chromium
+      - name: Start local campaign server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/roleforge-http.log 2>&1 &
+          for i in {1..30}; do curl -fsS http://127.0.0.1:4173/index.html >/dev/null && break; sleep 1; done
+      - name: Run complete rendered audit
+        env:
+          LOCAL_BASE: http://127.0.0.1:4173/
+        run: node scripts/audit-entire-site.mjs
+      - name: Upload complete QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capitalize-entire-site-qa
+          path: audit/entire-site/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish successful status
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="success" -f context="roleforge/entire-site-qa" -f description="All routes, viewports, document canvases, interactions, and PDFs passed" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+      - name: Publish failed status
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" -f state="failure" -f context="roleforge/entire-site-qa" -f description="Full-site QA found route, viewport, or document defects" -f target_url="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
