@@ -3,3 +3,50 @@
 @page{size:Letter;margin:0}@page canvas{size:11in 8.5in;margin:0}.canvas-paper{page:canvas}@media print{.site-header,.site-footer,.doc-toolbar,.web-only{display:none!important}body,.doc-body{background:#fff}.doc-body{padding:0}.paper{box-shadow:none;margin:0;page-break-after:always}.paper:last-child{page-break-after:auto}.resume-page,.cover-page,.brief-page,.plan-page{break-after:page}.paper:last-child .resume-page,.paper:last-child .cover-page,.paper:last-child .brief-page,.paper:last-child .plan-page{break-after:auto}.canvas-paper{break-after:auto}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.ledger-thread span{height:100%!important}.ledger-rows li{opacity:1!important;transform:none!important}.ledger-status i{box-shadow:none}.scenario-panel.is-changing{animation:none!important}}
 .resume-lower-grid{display:grid;grid-template-columns:1fr 1fr;gap:.09in;margin-bottom:.08in}.resume-lower-grid .resume-callout{margin:0}.resume-fit-row{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}.resume-fit-row span{background:var(--night);color:#fff;padding:6px 3px;text-align:center;font-size:7.2pt;font-weight:900;text-transform:uppercase;letter-spacing:.03em}.resume-fit-row span:nth-child(odd){border-bottom:3px solid var(--acid)}
+
+/* Screen documents reflow for reading; print media retains the exact fixed page canvases above. */
+@media screen and (max-width:900px){
+  .doc-body{overflow:visible;padding:18px 0 40px}
+  .paper{width:calc(100% - 24px);min-height:0;margin:0 auto 18px}
+  .resume-page,.cover-page,.brief-page,.plan-page{width:100%;height:auto;min-height:0;overflow:visible}
+  .resume-page{padding:28px 24px 22px}
+  .cover-page{padding:32px 28px 24px}
+  .brief-page,.plan-page{padding:30px 26px 24px}
+  .resume-top{grid-template-columns:1fr;align-items:start}
+  .resume-contact{text-align:left}
+  .resume-grid{grid-template-columns:1fr}
+  .resume-side{border-right:0;border-bottom:1px solid var(--line);padding:0 0 16px;margin-bottom:16px}
+  .resume-footer,.doc-footer,.cover-footer{position:static;left:auto;right:auto;bottom:auto;margin-top:22px;gap:8px;flex-wrap:wrap}
+  .cover-head{flex-direction:column;align-items:flex-start}
+  .cover-meta{text-align:left}
+  .brief-head,.plan-head{align-items:flex-start;gap:12px;flex-wrap:wrap}
+  .mini-grid{grid-template-columns:1fr}
+  .doc-cover{min-height:720px}
+  .doc-cover-inner{height:auto;min-height:650px}
+  .canvas-paper{width:calc(100% - 24px);height:auto;min-height:0;margin:0 auto;padding:28px 24px;overflow:visible;display:block}
+  .canvas-head{flex-direction:column;align-items:flex-start;gap:16px}
+  .canvas-head>p{text-align:left}
+  .canvas-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;height:auto}
+  .canvas-cell{min-height:300px}
+}
+
+@media screen and (max-width:560px){
+  .doc-actions{flex-direction:column;align-items:stretch}
+  .doc-actions-left,.doc-actions-right{width:100%;justify-content:flex-start}
+  .resume-page{padding:24px 18px 18px}
+  .cover-page,.brief-page,.plan-page{padding:24px 20px 18px}
+  .resume-name{font-size:24pt}
+  .resume-title{font-size:10pt}
+  .resume-lower-grid{grid-template-columns:1fr}
+  .role-head{flex-wrap:wrap}
+  .cover-name{font-size:22pt}
+  .cover-body{font-size:9.5pt}
+  .cover-thesis{font-size:12.5pt}
+  .doc-cover{min-height:620px}
+  .doc-cover-inner{min-height:570px}
+  .doc-cover h1{font-size:34pt}
+  .canvas-paper{padding:24px 18px}
+  .canvas-head h1{font-size:22pt}
+  .canvas-grid{grid-template-columns:1fr}
+  .canvas-cell{min-height:260px}
+}
