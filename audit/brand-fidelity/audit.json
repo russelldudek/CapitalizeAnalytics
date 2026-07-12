@@ -1,0 +1,1785 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-12T13:53:21.499Z",
+  "auditedSourceSha": "98af96809c0022879ef370459a88fb8665ed09db",
+  "workflowRunId": "29195191629",
+  "status": "passed",
+  "brandFidelity": "passed",
+  "visibleCompanyIdentity": "passed",
+  "officialLogoWordmark": "used",
+  "colorTokenProvenance": "passed",
+  "typographyDecision": "passed",
+  "committedBrandAssets": "passed",
+  "companyImageryOrVisualCues": "official identity plus documented company-derived color, typography, rail, rule, and density cues",
+  "documentBrandContinuity": "passed",
+  "independentCandidateDistinction": "passed",
+  "assertions": [
+    {
+      "passed": true,
+      "message": "desktop: brand marker",
+      "evidence": "cap-v1"
+    },
+    {
+      "passed": true,
+      "message": "desktop: local official hero wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 145,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official wordmark proportions",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 145,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: company identity above fold",
+      "evidence": {
+        "x": 145,
+        "y": 158.234375,
+        "width": 155,
+        "height": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: independent candidate qualifier above fold",
+      "evidence": {
+        "text": "by Russell Dudek · Independent candidate campaign",
+        "rect": {
+          "x": 322,
+          "y": 201.640625,
+          "width": 275,
+          "height": 17.84375
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: explicit non-endorsement statement",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "desktop: Lora heading",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: Open Sans body",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official primary token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official blue token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official bright token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official text token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: subordinate candidate proof token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: no horizontal overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: Proof Ledger intact",
+      "evidence": 6
+    },
+    {
+      "passed": true,
+      "message": "desktop: no console errors",
+      "evidence": []
+    },
+    {
+      "passed": true,
+      "message": "desktop: keyboard scenario state change",
+      "evidence": {
+        "selected": "agentic",
+        "initialTitle": "Route the right exception to the right human with the right context.",
+        "changedTitle": "Bound the work an agent may perform without obscuring accountability."
+      }
+    },
+    {
+      "passed": true,
+      "message": "desktop: official comparison identity found",
+      "evidence": [
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "message": "laptop: brand marker",
+      "evidence": "cap-v1"
+    },
+    {
+      "passed": true,
+      "message": "laptop: local official hero wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 65,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official wordmark proportions",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 65,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: company identity above fold",
+      "evidence": {
+        "x": 65,
+        "y": 158.234375,
+        "width": 155,
+        "height": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: independent candidate qualifier above fold",
+      "evidence": {
+        "text": "by Russell Dudek · Independent candidate campaign",
+        "rect": {
+          "x": 242,
+          "y": 201.640625,
+          "width": 275,
+          "height": 17.84375
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: explicit non-endorsement statement",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "laptop: Lora heading",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: Open Sans body",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official primary token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official blue token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official bright token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official text token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: subordinate candidate proof token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: no horizontal overflow",
+      "evidence": {
+        "scrollWidth": 1280,
+        "innerWidth": 1280
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: Proof Ledger intact",
+      "evidence": 6
+    },
+    {
+      "passed": true,
+      "message": "laptop: no console errors",
+      "evidence": []
+    },
+    {
+      "passed": true,
+      "message": "laptop: keyboard scenario state change",
+      "evidence": {
+        "selected": "agentic",
+        "initialTitle": "Route the right exception to the right human with the right context.",
+        "changedTitle": "Bound the work an agent may perform without obscuring accountability."
+      }
+    },
+    {
+      "passed": true,
+      "message": "laptop: official comparison identity found",
+      "evidence": [
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "message": "tablet: brand marker",
+      "evidence": "cap-v1"
+    },
+    {
+      "passed": true,
+      "message": "tablet: local official hero wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 45,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official wordmark proportions",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 45,
+          "y": 158.234375,
+          "width": 155,
+          "height": 58
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: company identity above fold",
+      "evidence": {
+        "x": 45,
+        "y": 158.234375,
+        "width": 155,
+        "height": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: independent candidate qualifier above fold",
+      "evidence": {
+        "text": "by Russell Dudek · Independent candidate campaign",
+        "rect": {
+          "x": 222,
+          "y": 201.640625,
+          "width": 275,
+          "height": 17.84375
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: explicit non-endorsement statement",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "tablet: Lora heading",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: Open Sans body",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official primary token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official blue token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official bright token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official text token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: subordinate candidate proof token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: no horizontal overflow",
+      "evidence": {
+        "scrollWidth": 768,
+        "innerWidth": 768
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: Proof Ledger intact",
+      "evidence": 6
+    },
+    {
+      "passed": true,
+      "message": "tablet: no console errors",
+      "evidence": []
+    },
+    {
+      "passed": true,
+      "message": "tablet: keyboard scenario state change",
+      "evidence": {
+        "selected": "agentic",
+        "initialTitle": "Route the right exception to the right human with the right context.",
+        "changedTitle": "Bound the work an agent may perform without obscuring accountability."
+      }
+    },
+    {
+      "passed": true,
+      "message": "tablet: official comparison identity found",
+      "evidence": [
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+          "naturalWidth": 579,
+          "naturalHeight": 421
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/finance-planning-budgeting.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "message": "mobile: brand marker",
+      "evidence": "cap-v1"
+    },
+    {
+      "passed": true,
+      "message": "mobile: local official hero wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 39,
+          "y": 141,
+          "width": 132,
+          "height": 49.390625
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official wordmark proportions",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58,
+        "rect": {
+          "x": 39,
+          "y": 141,
+          "width": 132,
+          "height": 49.390625
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: company identity above fold",
+      "evidence": {
+        "x": 39,
+        "y": 141,
+        "width": 132,
+        "height": 49.390625
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: independent candidate qualifier above fold",
+      "evidence": {
+        "text": "by Russell Dudek · Independent candidate campaign",
+        "rect": {
+          "x": 39,
+          "y": 247.03125,
+          "width": 275,
+          "height": 17.84375
+        }
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: explicit non-endorsement statement",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "mobile: Lora heading",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: Open Sans body",
+      "evidence": {
+        "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "heading": "Lora, Georgia, \"Times New Roman\", serif"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official primary token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official blue token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official bright token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official text token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: subordinate candidate proof token",
+      "evidence": {
+        "primary": "#012571",
+        "blue": "#0E41B8",
+        "bright": "#0C62FB",
+        "text": "#3A3A3A",
+        "proof": "#D5A12E"
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: no horizontal overflow",
+      "evidence": {
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: Proof Ledger intact",
+      "evidence": 6
+    },
+    {
+      "passed": true,
+      "message": "mobile: no console errors",
+      "evidence": []
+    },
+    {
+      "passed": true,
+      "message": "mobile: keyboard scenario state change",
+      "evidence": {
+        "selected": "agentic",
+        "initialTitle": "Route the right exception to the right human with the right context.",
+        "changedTitle": "Bound the work an agent may perform without obscuring accountability."
+      }
+    },
+    {
+      "passed": true,
+      "message": "mobile: official comparison identity found",
+      "evidence": [
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+          "naturalWidth": 390,
+          "naturalHeight": 283
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+          "naturalWidth": 390,
+          "naturalHeight": 283
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/finance-planning-budgeting.png",
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "message": "reduced motion: preference active",
+      "evidence": {
+        "matches": true,
+        "opacity": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "threadHeight": "468px",
+        "tabs": 3
+      }
+    },
+    {
+      "passed": true,
+      "message": "reduced motion: all records visible",
+      "evidence": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "passed": true,
+      "message": "reduced motion: interactions remain usable",
+      "evidence": 3
+    },
+    {
+      "passed": true,
+      "message": "resume.html: official local wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "resume.html: wordmark loaded",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "resume.html: PDF download target",
+      "evidence": "docs/Russell-Dudek-Resume-Capitalize.pdf"
+    },
+    {
+      "passed": true,
+      "message": "resume.html: separate Print action",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "resume.html: no web overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Resume-Capitalize.pdf: exact page count 2",
+      "evidence": 2
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Resume-Capitalize.pdf: non-placeholder",
+      "evidence": 227615
+    },
+    {
+      "passed": true,
+      "message": "cover-letter.html: official local wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "cover-letter.html: wordmark loaded",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "cover-letter.html: PDF download target",
+      "evidence": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf"
+    },
+    {
+      "passed": true,
+      "message": "cover-letter.html: separate Print action",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "cover-letter.html: no web overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf: exact page count 1",
+      "evidence": 1
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf: non-placeholder",
+      "evidence": 99475
+    },
+    {
+      "passed": true,
+      "message": "interview-brief.html: official local wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo-white.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 53
+      }
+    },
+    {
+      "passed": true,
+      "message": "interview-brief.html: wordmark loaded",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo-white.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 53
+      }
+    },
+    {
+      "passed": true,
+      "message": "interview-brief.html: PDF download target",
+      "evidence": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf"
+    },
+    {
+      "passed": true,
+      "message": "interview-brief.html: separate Print action",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "interview-brief.html: no web overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf: exact page count 4",
+      "evidence": 4
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf: non-placeholder",
+      "evidence": 209431
+    },
+    {
+      "passed": true,
+      "message": "90-day-plan.html: official local wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo-white.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 53
+      }
+    },
+    {
+      "passed": true,
+      "message": "90-day-plan.html: wordmark loaded",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo-white.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 53
+      }
+    },
+    {
+      "passed": true,
+      "message": "90-day-plan.html: PDF download target",
+      "evidence": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf"
+    },
+    {
+      "passed": true,
+      "message": "90-day-plan.html: separate Print action",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "90-day-plan.html: no web overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf: exact page count 3",
+      "evidence": 3
+    },
+    {
+      "passed": true,
+      "message": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf: non-placeholder",
+      "evidence": 210326
+    },
+    {
+      "passed": true,
+      "message": "engagement-canvas.html: official local wordmark",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "engagement-canvas.html: wordmark loaded",
+      "evidence": {
+        "src": "assets/brand/capitalize-official-logo.png",
+        "alt": "Capitalize Analytics",
+        "naturalWidth": 155,
+        "naturalHeight": 58
+      }
+    },
+    {
+      "passed": true,
+      "message": "engagement-canvas.html: PDF download target",
+      "evidence": "docs/AI-Engagement-Canvas-Capitalize.pdf"
+    },
+    {
+      "passed": true,
+      "message": "engagement-canvas.html: separate Print action",
+      "evidence": true
+    },
+    {
+      "passed": true,
+      "message": "engagement-canvas.html: no web overflow",
+      "evidence": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    },
+    {
+      "passed": true,
+      "message": "docs/AI-Engagement-Canvas-Capitalize.pdf: exact page count 1",
+      "evidence": 1
+    },
+    {
+      "passed": true,
+      "message": "docs/AI-Engagement-Canvas-Capitalize.pdf: non-placeholder",
+      "evidence": 82552
+    }
+  ],
+  "failures": [],
+  "renders": [
+    {
+      "viewport": {
+        "key": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "campaign": {
+        "marker": "cap-v1",
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 145,
+            "y": 158.234375,
+            "width": 155,
+            "height": 58
+          }
+        },
+        "navLogo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 120,
+            "y": 15.296875,
+            "width": 116,
+            "height": 43.40625
+          }
+        },
+        "qualifier": {
+          "text": "by Russell Dudek · Independent candidate campaign",
+          "rect": {
+            "x": 322,
+            "y": 201.640625,
+            "width": 275,
+            "height": 17.84375
+          }
+        },
+        "fonts": {
+          "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+          "heading": "Lora, Georgia, \"Times New Roman\", serif"
+        },
+        "tokens": {
+          "primary": "#012571",
+          "blue": "#0E41B8",
+          "bright": "#0C62FB",
+          "text": "#3A3A3A",
+          "proof": "#D5A12E"
+        },
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        },
+        "ledgerRows": 6,
+        "independentFooter": true
+      },
+      "official": {
+        "title": "Home - Capitalize Analytics",
+        "logos": [
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+            "naturalWidth": 155,
+            "naturalHeight": 58
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          }
+        ],
+        "bodyFont": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "headingFont": "Lora, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "consoleErrors": []
+    },
+    {
+      "viewport": {
+        "key": "laptop",
+        "width": 1280,
+        "height": 800
+      },
+      "campaign": {
+        "marker": "cap-v1",
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 65,
+            "y": 158.234375,
+            "width": 155,
+            "height": 58
+          }
+        },
+        "navLogo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 40,
+            "y": 15.296875,
+            "width": 116,
+            "height": 43.40625
+          }
+        },
+        "qualifier": {
+          "text": "by Russell Dudek · Independent candidate campaign",
+          "rect": {
+            "x": 242,
+            "y": 201.640625,
+            "width": 275,
+            "height": 17.84375
+          }
+        },
+        "fonts": {
+          "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+          "heading": "Lora, Georgia, \"Times New Roman\", serif"
+        },
+        "tokens": {
+          "primary": "#012571",
+          "blue": "#0E41B8",
+          "bright": "#0C62FB",
+          "text": "#3A3A3A",
+          "proof": "#D5A12E"
+        },
+        "overflow": {
+          "scrollWidth": 1280,
+          "innerWidth": 1280
+        },
+        "ledgerRows": 6,
+        "independentFooter": true
+      },
+      "official": {
+        "title": "Home - Capitalize Analytics",
+        "logos": [
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+            "naturalWidth": 155,
+            "naturalHeight": 58
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          }
+        ],
+        "bodyFont": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "headingFont": "Lora, sans-serif",
+        "overflow": {
+          "scrollWidth": 1280,
+          "innerWidth": 1280
+        }
+      },
+      "consoleErrors": []
+    },
+    {
+      "viewport": {
+        "key": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "campaign": {
+        "marker": "cap-v1",
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 45,
+            "y": 158.234375,
+            "width": 155,
+            "height": 58
+          }
+        },
+        "navLogo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 20,
+            "y": 15.296875,
+            "width": 116,
+            "height": 43.40625
+          }
+        },
+        "qualifier": {
+          "text": "by Russell Dudek · Independent candidate campaign",
+          "rect": {
+            "x": 222,
+            "y": 201.640625,
+            "width": 275,
+            "height": 17.84375
+          }
+        },
+        "fonts": {
+          "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+          "heading": "Lora, Georgia, \"Times New Roman\", serif"
+        },
+        "tokens": {
+          "primary": "#012571",
+          "blue": "#0E41B8",
+          "bright": "#0C62FB",
+          "text": "#3A3A3A",
+          "proof": "#D5A12E"
+        },
+        "overflow": {
+          "scrollWidth": 768,
+          "innerWidth": 768
+        },
+        "ledgerRows": 6,
+        "independentFooter": true
+      },
+      "official": {
+        "title": "Home - Capitalize Analytics",
+        "logos": [
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+            "naturalWidth": 155,
+            "naturalHeight": 58
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+            "naturalWidth": 579,
+            "naturalHeight": 421
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/finance-planning-budgeting.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          }
+        ],
+        "bodyFont": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "headingFont": "Lora, sans-serif",
+        "overflow": {
+          "scrollWidth": 774,
+          "innerWidth": 768
+        }
+      },
+      "consoleErrors": []
+    },
+    {
+      "viewport": {
+        "key": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "campaign": {
+        "marker": "cap-v1",
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 39,
+            "y": 141,
+            "width": 132,
+            "height": 49.390625
+          }
+        },
+        "navLogo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "naturalWidth": 155,
+          "naturalHeight": 58,
+          "rect": {
+            "x": 14,
+            "y": 19.03125,
+            "width": 96,
+            "height": 35.921875
+          }
+        },
+        "qualifier": {
+          "text": "by Russell Dudek · Independent candidate campaign",
+          "rect": {
+            "x": 39,
+            "y": 247.03125,
+            "width": 275,
+            "height": 17.84375
+          }
+        },
+        "fonts": {
+          "body": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+          "heading": "Lora, Georgia, \"Times New Roman\", serif"
+        },
+        "tokens": {
+          "primary": "#012571",
+          "blue": "#0E41B8",
+          "bright": "#0C62FB",
+          "text": "#3A3A3A",
+          "proof": "#D5A12E"
+        },
+        "overflow": {
+          "scrollWidth": 390,
+          "innerWidth": 390
+        },
+        "ledgerRows": 6,
+        "independentFooter": true
+      },
+      "official": {
+        "title": "Home - Capitalize Analytics",
+        "logos": [
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/CapitalizeOnly_logo_Brand_WEBSITE-OP-155-x-58.png",
+            "naturalWidth": 155,
+            "naturalHeight": 58
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/08/capitalize_new-logo.png",
+            "naturalWidth": 155,
+            "naturalHeight": 53
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-what-we-do.jpg",
+            "naturalWidth": 390,
+            "naturalHeight": 283
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/home-who-we-are.jpg",
+            "naturalWidth": 390,
+            "naturalHeight": 283
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/cloud-data-warehousing.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/project-management.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/data-integration.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/robotic-process-automation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/office-finance-transformation.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          },
+          {
+            "src": "https://capitalizeconsulting.com/wp-content/uploads/2024/05/finance-planning-budgeting.png",
+            "naturalWidth": 0,
+            "naturalHeight": 0
+          }
+        ],
+        "bodyFont": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "headingFont": "Lora, sans-serif",
+        "overflow": {
+          "scrollWidth": 390,
+          "innerWidth": 390
+        }
+      },
+      "consoleErrors": []
+    }
+  ],
+  "reducedMotion": {
+    "matches": true,
+    "opacity": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "threadHeight": "468px",
+    "tabs": 3
+  },
+  "documents": [
+    {
+      "route": "resume.html",
+      "pdfPath": "docs/Russell-Dudek-Resume-Capitalize.pdf",
+      "expectedPages": 2,
+      "pageCount": 2,
+      "bytes": 227615,
+      "sha256": "addd0cda1931a5211be983652592ddd52c146af4fa2b6a46daa626fc3bb6fbda",
+      "state": {
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        "download": "docs/Russell-Dudek-Resume-Capitalize.pdf",
+        "print": true,
+        "bodyFont": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    },
+    {
+      "route": "cover-letter.html",
+      "pdfPath": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
+      "expectedPages": 1,
+      "pageCount": 1,
+      "bytes": 99475,
+      "sha256": "2f0914ce1926ddc9b35ae2d25987fc9793139f66743857711ad9942f4b1e28c1",
+      "state": {
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        "download": "docs/Russell-Dudek-Cover-Letter-Capitalize.pdf",
+        "print": true,
+        "bodyFont": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    },
+    {
+      "route": "interview-brief.html",
+      "pdfPath": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
+      "expectedPages": 4,
+      "pageCount": 4,
+      "bytes": 209431,
+      "sha256": "a4921c79df2d94436f7ecb6bef9196f54724635c654f4e2a739fa75fc18f53f7",
+      "state": {
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo-white.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        "download": "docs/Russell-Dudek-Interview-Brief-Capitalize.pdf",
+        "print": true,
+        "bodyFont": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    },
+    {
+      "route": "90-day-plan.html",
+      "pdfPath": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
+      "expectedPages": 3,
+      "pageCount": 3,
+      "bytes": 210326,
+      "sha256": "d145d91b321527154a57235bf0d0192a3c05fd386c9e8e4f94790c5a3b7ed955",
+      "state": {
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo-white.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 53
+        },
+        "download": "docs/Russell-Dudek-90-Day-Plan-Capitalize.pdf",
+        "print": true,
+        "bodyFont": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    },
+    {
+      "route": "engagement-canvas.html",
+      "pdfPath": "docs/AI-Engagement-Canvas-Capitalize.pdf",
+      "expectedPages": 1,
+      "pageCount": 1,
+      "bytes": 82552,
+      "sha256": "e91a3366ef60cce272e96015f1ccd2b97b73eaa5003649d63506d988e4c6d224",
+      "state": {
+        "logo": {
+          "src": "assets/brand/capitalize-official-logo.png",
+          "alt": "Capitalize Analytics",
+          "naturalWidth": 155,
+          "naturalHeight": 58
+        },
+        "download": "docs/AI-Engagement-Canvas-Capitalize.pdf",
+        "print": true,
+        "bodyFont": "\"Open Sans\", \"Segoe UI\", Arial, sans-serif",
+        "overflow": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    }
+  ]
+}
