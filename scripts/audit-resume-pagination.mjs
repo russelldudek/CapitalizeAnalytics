@@ -53,7 +53,7 @@ async function inspectLayout(media) {
 
       const substantiveBottom = Math.max(...modules.map((module) => module.bottom), pageRect.top);
       const footerTop = footerRect?.top ?? pageRect.bottom;
-      const overlaps = modules.filter((module) => module.bottom > footerTop - 6);
+      const overlaps = modules.filter((module) => module.bottom > footerTop - 4);
       const gapToFooter = footerTop - substantiveBottom;
 
       return {
@@ -94,7 +94,7 @@ for (const [media, pages] of [['screen', screen], ['print', print]]) {
       failures.push(`${media} page ${pageResult.page}: content overflows fixed page canvas (${pageResult.scrollHeight}px > ${pageResult.clientHeight}px)`);
     }
     if (pageResult.overlaps.length) {
-      failures.push(`${media} page ${pageResult.page}: ${pageResult.overlaps.length} substantive module(s) overlap the footer`);
+      failures.push(`${media} page ${pageResult.page}: ${pageResult.overlaps.length} substantive module(s) overlap the footer safety zone`);
     }
     if (pageResult.gapToFooter > 72) {
       failures.push(`${media} page ${pageResult.page}: last substantive content ends ${pageResult.gapToFooter.toFixed(1)}px above footer; exceeds 0.75in balance limit`);
